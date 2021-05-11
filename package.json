@@ -1,0 +1,25 @@
+{
+  "name": "hr-console-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devo": "node  index.js -o fileName.ext",
+    "devp": "node  index.js -p proj1 -p proj2",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "jsonfile": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
