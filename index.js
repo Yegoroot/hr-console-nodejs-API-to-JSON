@@ -28,3 +28,8 @@ axios.get(`${BASE_URL}/projects`)
   console.log(`${fileName}.json`.green, 'okey'.green)
 })
 
+
+/**
+ * node index.js -p proj1 -p proj2 -o fileName
+ * 
+ */
